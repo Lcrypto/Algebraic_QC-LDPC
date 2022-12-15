@@ -1,5 +1,5 @@
 # Matlab and C++ tools for Algebraic QC-LDPC codes construction   
-Matlab implementation of algebraic methods for construction Quasi Cyclic and Cyclic LDPC codes parity-check matrix using Projective Geometry, Euclidean Geometry, Finite Geometry, Latin Square, BIBD Design, RS code, Lattice Grid and etc
+Matlab implementation of algebraic methods for construction Quasi Cyclic and Cyclic LDPC codes parity-check matrix using Projective Geometry, Affine Geometry, Euclidean Geometry, Finite Geometry, Latin Square, BIBD Design, RS code, Lattice Grid and etc
 
 
 
