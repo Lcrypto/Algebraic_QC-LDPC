@@ -3,6 +3,6 @@ Matlab implementation of algebraic methods for construction QC-LDPC codes parity
 
 
 
-Folder  egldpc-0.4 contain C++ source code to make Euclidean Geometry LDPC codes parity and generator matrix, from Fernando Pujaico Rivera
+Folder  egldpc-0.4 contain C++ source code to make Euclidean Geometry LDPC codes parity matrix and low-density generator matrix (LDGM) code, from Fernando Pujaico Rivera. For efficient decoding of Euclidean Geometry LDPC code and LDGM codes use hard decoders (BFS SHBF PHBF SSSBF PSSBF WBF MWBF) from https://github.com/Lcrypto/LDPC-Iterative-Bit-Flipping-family-decoders
 
  
