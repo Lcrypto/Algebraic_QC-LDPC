@@ -1,4 +1,4 @@
-# Algebraic QC-LDPC construction tools Matlab and C++
+# Matlab and C++ tools for Algebraic QC-LDPC codes construction   
 Matlab implementation of algebraic methods for construction QC-LDPC codes parity-check matrix using Projective Geometry, Finite Geometry, Latin Square, BIBD Design, Lattice Grid and etc
 
 
