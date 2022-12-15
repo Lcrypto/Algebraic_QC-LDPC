@@ -1,0 +1,49 @@
+<!DOCTYPE Book PUBLIC "-//OASIS//DTD DocBook V4.4//EN"[
+<!ENTITY capitulo1.sgml     SYSTEM "capitulo1.sgml">
+<!ENTITY referencias.sgml   SYSTEM "referencias.sgml">
+<!ENTITY faq.sgml SYSTEM "faq.sgml">
+]>
+
+<book lang="es" id="indice">
+
+    <bookinfo>
+	<title> Nombre del Proyecto </title>
+	<subtitle> Descripcion muy corta del proyecto  </subtitle>
+	<abstract>
+		<para>
+			Descripcion del proyecto
+		</para>
+		<para>
+			<email>fernando.pujaico.rivera en gmail.com</email>
+		</para>
+	</abstract>
+	<authorgroup>
+		<author>
+			<honorific>Ing</honorific>
+			<firstname>Fernando</firstname>
+			<surname>Pujaico Rivera</surname>
+			<affiliation>
+				<shortaffil>Desarrollador Principal</shortaffil>
+				<jobtitle>Investigador</jobtitle>
+				<orgname>Universidad Nacional de Ingenieria</orgname>
+			</affiliation>
+		</author>
+		<othercredit>
+			<honorific>Ing</honorific>
+			<firstname>Nombre</firstname>
+			<surname>Apellidos</surname>
+			<contrib>funcio1,documentacion,etc</contrib>
+		</othercredit>
+	</authorgroup>
+	<address>fernando.pujaico.rivera en gmail.com</address>
+    </bookinfo> 
+
+
+<chapter id="capitulo1" xreflabel="capitulo1" lang="es">
+&capitulo1.sgml;
+</chapter>
+
+&referencias.sgml;
+&faq.sgml;
+
+</book>

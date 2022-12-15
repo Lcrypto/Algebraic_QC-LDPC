@@ -1,0 +1,21 @@
+<!-- Fichero referencias.sgml -->
+<chapter id="referencias" xreflabel="referencias">
+	<title>Referencias</title>
+	
+	<itemizedlist>
+		<listitem>
+			<para>
+				<ulink url="http://zsoluciones.com">
+					zsoluciones
+				</ulink>
+			</para>
+		</listitem>	
+		<listitem>
+			<para>
+				<ulink url="http://google.com">
+					Google
+				</ulink>
+			</para>
+		</listitem>	
+	</itemizedlist>  
+</chapter>  

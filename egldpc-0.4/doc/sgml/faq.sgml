@@ -1,0 +1,26 @@
+<!-- Fichero faq.sgml -->
+<appendix id="faq">
+  <title>Preguntas Frecuentes</title>
+
+  <qandaset defaultlabel="number">
+    <qandaentry>
+      <question>
+        <para> <keycap>Puedo participar en el proyecto ?</keycap></para>
+      </question>
+      <answer>
+        <para>Si, entra en contacto con: <address>fernando.pujaico.rivera en gmail.com</address></para>
+      </answer>
+    </qandaentry>
+
+    <qandaentry>
+      <question>
+        <para> <keycap>Puedo participar en el proyecto?</keycap></para>
+      </question>
+      <answer>
+        <para>Si, entra en contacto con: Fernando <address>fernando.pujaico.rivera en gmail.com</address></para>
+      </answer>
+    </qandaentry>
+
+  </qandaset>
+
+</appendix>

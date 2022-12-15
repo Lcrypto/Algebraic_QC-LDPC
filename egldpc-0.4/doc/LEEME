@@ -1,0 +1,46 @@
+
+generator-matrix-egldpc
+=======================
+
+Crea un código EG-LDPC tipo-I con un matriz de verificación de paridad H de N 
+columnas y J lineas y una matriz generadora G de K lineas y N columnas, polinomios 
+representarán a las lineas. Estas matrices son creadas a partir de una EG(m,2^s),
+que es una geometría euclidiana de dimensión "m" y "2^s" puntos por dimensión. 
+Es necesario entregar como datos "m" o "s" y el polinomio primitivo generador de 
+la EG, el polinomio debe tener grado n=m*s, N=2^n-1.
+
+Polinomio primitivo: 	p(x)=X^4+x+1	--> {4,1,0}
+Entonces n:		n=4
+Dado que m*s=n uso m:	m=2
+Entonces:		s=2
+
+Ahora para generar una EGLDPC de tipo I:
+
+generator-matrix-egldpc	 --pos-one 4  --pos-one 1  --pos-one 0 -m 2 -s 2 
+
+El programa retorna:
+
+<<Reporte>>
+N=	15
+K=	7
+Rc=	0.4667
+J=	15
+LINHAS-PADRAO:	1
+LINHAS:	4
+0	1	3	7	
+POLI-GERA:	5
+0	4	6	7	8	
+<<Fin Del programa>>
+
+En donde:
+
+H=H_{J}{N}, H es creado girando ciclicamente N veces todos los hi(X).
+
+Existen tantos hi(X) como LINHAS-PADRAO se tengan, en este ejemplo 1.
+
+0<= i < LINHAS-PADRAO
+
+{0, 1, 3, 7} --> h0(X)=1+X+X^3+X^7
+
+{0, 4, 6, 7, 8} --> g(X)=1+X^4+X^6+X^7+X^8
+
