@@ -1,9 +1,7 @@
 # Matlab and C++ tools for Algebraic QC-LDPC codes construction   
-Matlab implementation of algebraic methods for construction Quasi Cyclic and Cyclic LDPC codes parity-check matrix using Projective Geometry, Affine Geometry, Euclidean Geometry, Finite Geometry, Latin Square, BIBD Design, RS code, Lattice Grid and etc
+The GitHub repository contains MATLAB and C++ tools for implementing algebraic methods to construct Quasi-Cyclic and Cyclic Low-Density Parity-Check (LDPC) codes parity-check matrices using various techniques such as Projective Geometry, Affine Geometry, Euclidean Geometry, Finite Geometry, Latin Square, Balanced Incomplete Block Design (BIBD), Reed-Solomon (RS) code, Lattice Grid, and more.
 
-
-
-Folder  egldpc-0.4 contain C++ source code to make Euclidean Geometry LDPC codes parity matrix and low-density generator matrix (LDGM) codes, from Fernando Pujaico Rivera. For efficient hard decoding of Euclidean Geometry LDPC code and LDGM codes use BFS SHBF PHBF SSSBF PSSBF WBF MWBF decoders from https://github.com/Lcrypto/LDPC-Iterative-Bit-Flipping-family-decoders
+The "egldpc-0.4" folder in the repository contains C++ source code for making Euclidean Geometry LDPC codes parity matrices and low-density generator matrix (LDGM) codes, developed by Fernando Pujaico Rivera. For efficient hard decoding of Euclidean Geometry LDPC codes and LDGM codes, you can use BFS, SHBF, PHBF, SSSBF, PSSBF, WBF, and MWBF decoders from https://github.com/Lcrypto/LDPC-Iterative-Bit-Flipping-family-decoders.
 
  
 Most of construction based on articles 
